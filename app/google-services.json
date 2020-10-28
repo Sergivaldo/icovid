@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1098414653387",
+    "firebase_url": "https://icovid-a078a.firebaseio.com",
+    "project_id": "icovid-a078a",
+    "storage_bucket": "icovid-a078a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1098414653387:android:9feb1fa34222bae511404e",
+        "android_client_info": {
+          "package_name": "com.example.app_olimpiada"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1098414653387-1du2ua52fmvcbatajqj0lm4v5mndo9pp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.app_olimpiada",
+            "certificate_hash": "d4dabbe9f269172ec43a760886c26dbf0d4bee8c"
+          }
+        },
+        {
+          "client_id": "1098414653387-uihfkr638uke31vo6k0reki0fqimams5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkfYLVvUWQt7MIUtrcmVkR8SBLRNMvseg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1098414653387-uihfkr638uke31vo6k0reki0fqimams5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

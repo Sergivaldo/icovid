@@ -2,7 +2,10 @@
 <resources>
     <color name="verde">#00C369</color>
     <color name="verde_escuro">#009C54</color>
-    <color name="branco">#FFFFFF</color>
+    <color  name="branco">#E1FFFFFF</color>
     <color name="cinza">#EAEAEA</color>
     <color name="cinza_escuro">#6D6D6D</color>
+    <color name="numeros_painel">#B0E6C3</color>
+    <color name="fundo_pais_estado">#006E3B</color>
+    <color name="clicado">#668C00</color>
 </resources>
