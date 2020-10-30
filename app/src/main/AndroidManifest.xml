@@ -9,15 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".tela_ajuda_sobre"></activity>
         <activity android:name=".conteudo_cards" />
-        <activity android:name=".Tela_casa">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".Tela_casa"></activity>
         <activity android:name=".Tela_inicial">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,20 +19,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Tela_covid">
-            <intent-filter>
-                <category android:name="android.intent.category.LAUNCHER" />
-
-                <action android:name="android.intent.action.MAIN" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".Tela_escola">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".Tela_covid"></activity>
+        <activity android:name=".Tela_escola"></activity>
     </application>
 
 </manifest>

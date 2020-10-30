@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -107,6 +108,27 @@ public class Tela_covid extends AppCompatActivity {
         return true;
     }
 
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        Intent intent_sobre_ajuda = new Intent(this,tela_ajuda_sobre.class);
+        Bundle parametros = new Bundle();
+        switch (item.getItemId()){
+            case R.id.ajuda:
+                parametros.putString("titulo","Ajuda");
+                parametros.putInt("conteudo",R.string.Ajuda);
+                intent_sobre_ajuda.putExtras(parametros);
+                startActivity(intent_sobre_ajuda);
+                return true;
+            case R.id.sobre:
+                parametros.putString("titulo","Sobre");
+                parametros.putInt("conteudo",R.string.Sobre);
+                intent_sobre_ajuda.putExtras(parametros);
+                startActivity(intent_sobre_ajuda);
+                return true;
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
 
     public void set_info(View view) {
         TextView btt_brazil = findViewById(R.id.Brasil);

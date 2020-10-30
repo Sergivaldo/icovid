@@ -26,8 +26,20 @@
     -Quando a quarentena é generalizada estendendo-se a toda a população por medida de segurança (diminuir a disseminação do vírus),
     ela é chamada de lockdown, palavra de origem inglesa que significa bloqueio e representa, nesse caso, um verdadeiro bloqueio sanitário.
     </string>
-    <string name="conteudo_aluno"></string>
-    <string name="conteudo_professor"></string>
+    <string name="conteudo_aluno">
+        - Mantenha o distanciamento de pelo menos 1 metro entre seus colegas de classe para dessa forma
+        evitar contato físico.\n\n- Faça sempre o uso da máscara no ambiente escolar, isso o deixará mais protegido e irá diminuir
+        as chances de contágio.\n\n- Higienize frequentemente sua mãos, principalmente ao pegar em algum material, impedindo possíveis
+        contaminações.\n\n- Siga sempre as recomendações de proteção e regras da escola, momentos como este requer conscientização por parte de todos
+        para evitar mais casos da doença.
+    </string>
+
+    <string name="conteudo_professor">- Assim como os alunos, é importante manter o distanciamento social de ao menos um metro, sempre
+    use mascara ao entrar em contato com alguém no ambiente escolar e sempre faça a higienização respiratória e das mãos, seja com água e sabão
+    ou álcool 70%.\n\n- Em sala de aula, mantenha a ordem fazendo com que os alunos sigam as regras de espaçamento entre as carteiras e tente ao
+    máximo deixar o local arejado.\n\n A escola também possui um papel importante, garantindo sempre materiais para a higienização
+    dos indivíduos, desenvolver um cronograma para limpeza e desinfecção diária e a alternancia entre os horários de intervalos para diminuir
+    a quantidade de alunos fora da sala e evitar aglomeração.</string>
 
     <string name="conteudo_covid">Sars-CoV-2 é um novo coronavírus causador da doença COVID-19. Esse vírus
     foi identificado no ano de 2019 em Wuhan na China.\nO COVID-19 aprensenta um espectro clínico variando
@@ -35,8 +47,28 @@
     (cerca de 80%) dos pacientes com COVID-19 podem ser assintomáticos ou oligossintomáticos (poucos sintomas).\n\nAlguns dos
     sintomas mais comuns:\n\n- Febre\n- Tosse\n- Dificuldade para respirar\n- Cansaço\n- Alteração no paladar\n- Dispinéia.</string>
 
-    <string name="conteudo_casa"></string>
-    <string name="conteudo_sapatos"></string>
-    <string name="conteudo_alimentacao"></string>
-    <string name="conteudo_lavar_roupas"></string>
+    <string name="conteudo_casa">a ventilação natural é um recurso que acaba se tornando fundamental para gerar locais mais confortáveis e,
+    acima de tudo, saudáveis. Um local arejado é um dos aspectos apontados por especialistas como importante para frear a propagação da COVID-19.\n
+    A ventilação natural ajuda na prevenção de doenças viróticas, como é o caso do coronavírus, pois, ao favorecer a renovação do ar, reduz a possibilidade
+    de disseminação do agente patológico.</string>
+
+    <string name="conteudo_sapatos">Ao chegar em casa é importante retirar os sapatos sujos. É comprovado que sapatos podem carregar bactérias e vírus, ainda
+    que isso não os faça uma grande fonte de contaminação. Adotar a prática de não utilizar sapatos dentro de casa é ótimo para evitar que crianças que brincam
+    no chão entrem em contato com algum microrganismo.</string>
+
+    <string name="conteudo_alimentacao"> Mesmo ainda não tendo uma vacina para o novo coronavírus, é necessário manter
+    uma boa alimentação para fortalecer o sistema imunológico e ajudar a combater possíveis sintomas que possam surgir.</string>
+
+    <string name="conteudo_lavar_roupas">Ao chegar em casa, retire as roupas utilizadas e as lave normalmente, com água e sabão. Caso
+    haja algum familiar contaminado pela doença em casa, use luvas para fazer a lavagem.\n Após chegar em casa tome banho para higienizar
+    seu corpo e eliminar qualquer organismo, evitando assim a proliferação destes.</string>
+    <string name="Sobre">O app foi criado por estudantes do CEEP Áureo de Oliveira Filho com intuito de divulgar
+    informações relacionadas à disseminação como também prevenção à COVID-19.\n\nFontes utilizadas: \n\nCOVID BRASIL: https://covid.saude.gov.br/
+    \n\nSociedade Brasileira de Pneumologia e Tisiologia: https://sbpt.org.br/portal/covid-19-oms/ \n\nMundo educação:
+    https://mundoeducacao.uol.com.br/sociologia/isolamento-social.htm \n\n Freepik: https://br.freepik.com/vetores/projeto</string>
+
+    <string name="Ajuda">Casa: Apresenta informações referentes à cuidados que devem ser tomados no ambiente domésticos.\n\n
+    Início: Mostra as recomendações que devem ser tomadas pela população durante o período de pandemia.
+    \n\nEscola: Aborda questões relacionadas a cuidados que devem sertomados no ambiente escolar.
+    \n\nCOVID-19: Informa através de um painel os casos de covid no país e estado da Bahia, além de explicações sobre o vírus.</string>
 </resources>
