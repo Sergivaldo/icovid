@@ -1,13 +1,18 @@
 package com.example.app_olimpiada;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
+import android.app.Dialog;
 import android.content.Intent;
+import android.media.Image;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 public class Tela_inicial extends AppCompatActivity {
 
@@ -45,6 +50,38 @@ public class Tela_inicial extends AppCompatActivity {
         Intent inicial_intent = new Intent(getApplicationContext(),Tela_inicial.class);
         LinearLayout btt_inicial = findViewById(R.id.btt_covid);
         startActivity(inicial_intent);
+
+    }
+
+    public void conteudo(View view) {
+        CardView card_distanciamento = findViewById(R.id.distanciamento);
+        CardView card_alcool = findViewById(R.id.alcool);
+        CardView card_mascara = findViewById(R.id.mascara);
+        CardView card_isolamento = findViewById(R.id.isolamento);
+        Intent intent_conteudo_cards = new Intent(this,conteudo_cards.class);
+        Bundle parametros = new Bundle();
+        if (view == card_distanciamento){
+            parametros.putString("titulo","Distanciamento social");
+            parametros.putInt("conteudo",R.string.conteudo_distanciamento);
+            intent_conteudo_cards.putExtras(parametros);
+            startActivity(intent_conteudo_cards);
+        }else if (view == card_alcool){
+            parametros.putString("titulo","Uso do alcool para higienização");
+            parametros.putInt("conteudo",R.string.conteudo_alcool);
+            intent_conteudo_cards.putExtras(parametros);
+            startActivity(intent_conteudo_cards);
+        }else if (view == card_mascara){
+            parametros.putString("titulo","Uso da mascara");
+            parametros.putInt("conteudo",R.string.conteudo_mascara);
+            intent_conteudo_cards.putExtras(parametros);
+            startActivity(intent_conteudo_cards);
+        }else if(view == card_isolamento){
+            parametros.putString("titulo","Isolamento social");
+            parametros.putInt("conteudo",R.string.conteudo_isolamento);
+            intent_conteudo_cards.putExtras(parametros);
+            startActivity(intent_conteudo_cards);
+        }
+
 
     }
 }

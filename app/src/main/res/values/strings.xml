@@ -1,3 +1,42 @@
 <resources>
-    <string name="app_name">App_olimpiada</string>
+    <string name="app_name">Icovid</string>
+
+    <string name="conteudo_distanciamento">Distanciamento social foi uma das medidas adotadas na pandemia para limitar o
+    convívio social com o objetivo de reduzir a propagação da doença.A adoção de medidas
+    desse tipo é essencial para evitar que se aumente o número de casos de pessoas doentes, reduzindo-se
+    a necessidade de internações e evitando, assim, uma sobrecarga no sistema de saúde.\nDessa forma, aglomerações são evitadas, e,
+    assim, podem ser determinados: a paralisação de atividades não essenciais, como fechamento do comércio, com a exceção de
+    serviços essenciais, como supermercados e farmácias; o cancelamento ou adiamento de eventos.</string>
+
+    <string name="conteudo_alcool">Além da água e sabão, o uso do alcool em gel se tornou muito comum e recomendado para higienização da mãos
+    no combate ao coronavírus, mais especificamente o alcool 70%, visto que esse é mais eficaz contra o vírus.\n\nObservações:
+    \n- Para que o alcool não perca sua eficiência é necessário sempre tampá-lo após seu uso.
+    \n- Dê preferência ao álcool etílico a 70% na formulação em gel para a higienização das mãos e
+    com registro na Anvisa para que não haja irritação da pele.
+    \n- O álcool absoluto ou em concentrações mais elevadas não devem ser utilizadas, pois, além de não
+    ter a eficácia desejada, são mais irritantes da pele e mais inflamáveis.</string>
+    <string name="conteudo_mascara"> O uso de máscara é extremamente necessário no período de pandemia, principalmente para
+    profissionais da área de saúde, visto que esses estarão em contato com pessoas possivelmente infectadas.\nO uso da mascara por
+    pessoas infectadas diminui a chance do vírus ser transmitido, já que ao tossir ou espirrar boa parte do vírus irá ficar nela.\nÉ indicado utilizá-la sempre
+    que for necessário sair de casa, pois as chances de prevenção aumentam consideravelmente.</string>
+    <string name="conteudo_isolamento">Em tempos de pandemia onde aglomeração pode aumentar a taxa de transmissão da doença
+    é necessário um periodo de isolamento social e quarentena para que dessa forma os casos de pessoas contaminadas diminua.Portanto,
+    é de extrema importância a colaboração da população é momentos como este.\n\n
+    Curiosidades:\n
+    -Quando a quarentena é generalizada estendendo-se a toda a população por medida de segurança (diminuir a disseminação do vírus),
+    ela é chamada de lockdown, palavra de origem inglesa que significa bloqueio e representa, nesse caso, um verdadeiro bloqueio sanitário.
+    </string>
+    <string name="conteudo_aluno"></string>
+    <string name="conteudo_professor"></string>
+
+    <string name="conteudo_covid">Sars-CoV-2 é um novo coronavírus causador da doença COVID-19. Esse vírus
+    foi identificado no ano de 2019 em Wuhan na China.\nO COVID-19 aprensenta um espectro clínico variando
+    de infecções assintomáticas a quadros graves. De acordo com a Organização Mundial de Saúde, a maioria
+    (cerca de 80%) dos pacientes com COVID-19 podem ser assintomáticos ou oligossintomáticos (poucos sintomas).\n\nAlguns dos
+    sintomas mais comuns:\n\n- Febre\n- Tosse\n- Dificuldade para respirar\n- Cansaço\n- Alteração no paladar\n- Dispinéia.</string>
+
+    <string name="conteudo_casa"></string>
+    <string name="conteudo_sapatos"></string>
+    <string name="conteudo_alimentacao"></string>
+    <string name="conteudo_lavar_roupas"></string>
 </resources>

@@ -1,6 +1,7 @@
 package com.example.app_olimpiada;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -45,6 +46,25 @@ public class Tela_escola extends AppCompatActivity {
         Intent inicial_intent = new Intent(getApplicationContext(),Tela_inicial.class);
         LinearLayout btt_inicial = findViewById(R.id.btt_covid);
         startActivity(inicial_intent);
+
+    }
+
+    public void conteudo(View view) {
+        CardView card_aluno = findViewById(R.id.aluno);
+        CardView card_professor = findViewById(R.id.professor);
+        Intent intent_conteudo_cards = new Intent(this,conteudo_cards.class);
+        Bundle parametros = new Bundle();
+        if (view == card_aluno){
+            parametros.putString("titulo","Cuidados que os alunos devem ter");
+            parametros.putInt("conteudo",R.string.conteudo_aluno);
+            intent_conteudo_cards.putExtras(parametros);
+            startActivity(intent_conteudo_cards);
+        }else if (view == card_professor){
+            parametros.putString("titulo","Cuidados que os professores devem ter");
+            parametros.putInt("conteudo",R.string.conteudo_professor);
+            intent_conteudo_cards.putExtras(parametros);
+            startActivity(intent_conteudo_cards);
+        }
 
     }
 }

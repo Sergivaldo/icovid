@@ -2,6 +2,7 @@ package com.example.app_olimpiada;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -165,6 +166,19 @@ public class Tela_covid extends AppCompatActivity {
         Intent inicial_intent = new Intent(getApplicationContext(),Tela_inicial.class);
         LinearLayout btt_inicial = findViewById(R.id.btt_covid);
         startActivity(inicial_intent);
+
+    }
+
+    public void conteudo(View view) {
+        CardView card_covid = findViewById(R.id.card_covid);
+        Intent intent_conteudo_cards = new Intent(this,conteudo_cards.class);
+        Bundle parametros = new Bundle();
+        if (view == card_covid){
+            parametros.putString("titulo","O que é o virus Sars-CoV-2?");
+            parametros.putInt("conteudo",R.string.conteudo_covid);
+            intent_conteudo_cards.putExtras(parametros);
+            startActivity(intent_conteudo_cards);
+        }
 
     }
 }
